@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="robots" content="<{$xoops_meta_robots}>">
+<meta name="keywords" content="<{$xoops_meta_keywords}>">
+<meta name="description" content="<{$xoops_meta_description}>">
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>">
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css">
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>">
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<!-- RMV:  added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<div id="englobe">
+	<div id="header">		
+		<a  id="accueil" href="<{$xoops_url}>"></a>
+		<a  id="lien1" href="<{$xoops_url}>/modules/mylinks/"></a>
+		<a  id="lien2" href="<{$xoops_url}>/modules/newbb/"></a>
+		<div class="menu" id="menu" ><{if !$xoops_isuser}><div align="center"><form action="<{$xoops_url}>/user.php" method="post"><input type="hidden" name="xoops_redirect" value="<{$xoops_requesturi}>" /><input type="hidden" name="op" value="login" />Pseudo : <input class="formButton" type="text" name="uname" size="6"  /> Mot de passe : <input class="formButton" type="password" name="pass" size="7"  />&nbsp;<input class="formButton" type="submit" value="Connexion" />&nbsp;&nbsp;<a class="menu" href="<{$xoops_url}>/register.php">Créer un compte</a></form></div><{/if}><{if $xoops_isuser}><br /> <div align="center">Bienvenue <a href="<{$xoops_url}>/user.php"><b><{$xoops_uname}>:</b></a> <a  href="<{$xoops_url}>/user.php">Votre compte</a> | <a href="<{$xoops_url}>/viewpmsg.php">Votre messagerie</a><{if $xoops_isadmin}> | <a href="<{$xoops_url}>/admin.php">Administration</a><{/if}> | <a href="<{$xoops_url}>/user.php?op=logout">Déconnexion</a></div><{/if}><br / ><{foreach item=block from=$xoops_ccblocks}><{include file="design_lw2/menu_centre.html"}><{/foreach}></div>
+		<div  id="liens_menu" ><a href="index.html">Lien | Lien | Lien | Lien | Lien | Lien</a></div></div>
+		
+	<div id="contenu">
+		<div id="texte"><{foreach item=block from=$xoops_ccblocks}><{include file="xd_violet/menu_centre.html"}><{/foreach}><{$xoops_contents}>
+			<div align="center"><{$xoops_banner}><br /><{$xoops_footer}></div>
+					</div>
+
+		<div id="footer">
+									<div  style="margin-top:65px; text-align: center" >Design par TrK pour
+										<a target="_blank" href="http://www.xoops-design.org/index.php">Xoops-Design</a>.</div>		</div>
+		
+	</div>
+</div>
+
+</body>
+</html>

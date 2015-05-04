@@ -1,0 +1,148 @@
+/* CSS partie  DESIGN */
+body {	
+	padding:0; 
+	margin:0;
+    color:#000000; 
+    background:#DA01CA url('images/fond.gif') repeat-x; 
+	font-size: 11px;  
+	font-family: Verdana; 
+}
+
+img{
+	border: 0px;
+}
+
+
+.menu a {
+	font-size: 11px; 
+	color: #FFFFFF;
+}
+
+table {
+	margin: 0; 
+	padding: 0; 
+	font-size: 11px
+}
+
+table td {
+	padding: 0; 
+	border-width: 0; 
+	font-family: Verdana;
+	font-size: 11px
+}
+#englobe{
+	position: absolute;
+	width: 700px;
+	margin-left: -360px;
+	left: 50%;
+	top: 0px;
+	height : auto;
+}
+
+#menu{
+	position: absolute; 
+	left: 17px; 
+	top: 163px; 
+	width: 661px; 
+	height: 30px; 
+	color: #FFFFFF;
+}
+
+#menu22{
+	background:url(images/bloc.png) no-repeat; 
+	width: 667px;
+}
+
+#contenu{
+	background:url(images/centre.jpg) repeat-y;
+	float : left;
+}
+
+#liens_menu{position: absolute; left: 104px; top: 130px; width: 495px; height: 17px; text-align: center;}
+#texte_footer{position: absolute; left: 104px; top: 862px; width: 495px; height: 46px; text-align: center}
+#accueil {position: absolute; left: 446px; top: 40px; width: 174px; height: 40px}
+#lien1 {position: absolute; left: 88px; top: 2px; width: 24px; height: 24px}
+#lien2 {position: absolute; left: 115px; top: 2px; width: 24px; height: 24px}
+#contact {position: absolute; left: 451px; top: 206px; width: 51px; height: 19px}
+
+#header { 
+	background:url(images/header.jpg) no-repeat; 
+	width:698px; 
+	height:240px; 
+
+}
+
+#texte{
+	background:url(images/inter.jpg) repeat-x;
+	height : auto;
+	width: 667px;
+	margin-left:12px;
+	margin-right:12px;
+
+}
+
+#footer{ 
+	background:url(images/footer.jpg); 
+	width:698px; 
+	height:108px; 
+
+}
+
+a {
+	color: #D504C1; 
+	text-decoration: none; 
+	background-color: transparent;
+}
+	
+a:hover {
+	color: #000000; 
+	text-decoration: NONE;
+}
+
+
+
+/* CSS partie XOOPS */
+
+.itemHead a {font-size: 11px; color: #FFFFFF;}
+.item {border: 1px solid #cccccc;}
+.itemHead {padding: 3px; background:url(images/menu.gif); color:#FFFFFF; }
+.itemInfo {text-align: right; padding: 3px; background-color: #FFFFFF}
+.itemTitle a {font-size: 98%; font-weight: bold; font-variant: small-caps; color: #FFFFFF; background-color: transparent;}
+.itemPoster {font-size: 85%; font-style:italic;}
+.itemPostDate {font-size: 85%; font-style:italic;}
+.itemStats {font-size: 85%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; text-align: justify;margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 155%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #F5F6FA}
+.itemAdminLink {font-size: 85%;}
+.itemPermaLink {font-size: 85%;}
+
+th {background:url(images/menu.gif); color:#FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.outer {border: 1px solid silver;}
+.head {background-color: #F5F6FA; padding: 5px; font-weight: bold;}
+.even {background-color: #F5F6FA; padding: 5px;}
+.odd {background-color: #F5F6FA; padding: 5px;}
+.foot {background-color: #F5F6FA; padding: 5px; font-weight: bold;}
+
+tr.even td {background-color: #F5F6FA; padding: 5px;}
+tr.odd td {background-color: #E1E5F0; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #808080; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #808080; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; }
+.comDateCaption {font-weight: bold; font-style: normal;}
